@@ -1,0 +1,16 @@
+{
+    "instances": [
+        {
+            "server": "https://jira-instance-1.com",
+            "user": "usuario1",
+            "password": "contraseña1",
+            "jqlQuery": "project = AONRUN ORDER BY created DESC"
+        },
+        {
+            "server": "https://jira-instance-2.com",
+            "user": "usuario2",
+            "password": "contraseña2",
+            "jqlQuery": "project = {project_id} ORDER BY created DESC"
+        }
+    ]
+}
